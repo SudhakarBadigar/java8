@@ -1,0 +1,26 @@
+package lambdaExpression;
+
+import java.util.ArrayList;
+
+public class ListCompare {
+	String ename;
+	int eno;
+	
+	public ListCompare(String name,int no) {
+		this.ename= name;
+		this.eno=no;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Name =" + ename + ",Id =" + eno;
+	}
+
+
+	public static void main(String[] args) {
+		ListCompare l = new ListCompare("gandhi", 244);
+		System.out.println(l);
+	}
+
+}
