@@ -1,0 +1,10 @@
+package lambdaExpression;
+@FunctionalInterface
+interface test2{
+	public int m1(int a,int b);
+}
+
+public class Lambda4 {
+	test2 t1 = (a,b)->{System.out.println("addition is ="+(a+b));};
+	t1.m1(10,40);
+}

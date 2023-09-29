@@ -1,0 +1,21 @@
+package lambdaExpression;
+interface test3{
+	public void square(int n);
+}
+
+class Demo implements test3{
+	public void square(int n) {
+		System.out.println("square is = " +(n*n));
+	}
+}
+
+public class SqureIt {
+	public static void main(String[] args) {
+		Demo d = new Demo();
+		d.square(5);
+		d.square(6);
+		d.square(7);
+		d.square(10);
+	}
+
+}

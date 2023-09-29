@@ -1,0 +1,13 @@
+package lambdaExpression;
+
+public class Lambda1 {
+
+//	public void m1() {
+//		System.out.println("Hello Lambda Expression");
+//	}
+//	
+	public static void main(String[] args) {
+		
+	() -> System.out.println("Lambda Expression");
+	}
+}
