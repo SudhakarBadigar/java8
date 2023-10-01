@@ -1,0 +1,22 @@
+package lambdaExpression;
+class Test1{
+	String name;
+	int eno;
+	public Test1(String name, int eno) {
+		this.name = name;
+		this.eno = eno;
+	}
+	@Override
+	public String toString() {
+		return "Test1 [name=" + name + ", eno=" + eno + "]";
+	}
+	
+}
+
+public class Employee {
+	public static void main(String[] args) {
+		Test1 t1 = new Test1("madan", 10);
+		System.out.println(t1);
+	}
+	
+}

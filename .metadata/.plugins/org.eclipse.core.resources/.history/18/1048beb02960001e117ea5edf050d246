@@ -32,6 +32,7 @@ public class ListCompare {
 		Collections.sort(l1,new Mycompare());
 		System.out.println(l1);
 		System.out.println("........................");
+		Collections.sort(l1,new mycomparable("", 0);
 		System.out.println("sort by names" + l1);
 	}
 
