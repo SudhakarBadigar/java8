@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;predifedFunctionalIntefrace&apos; to &apos;predefinedFunctionalIntefrace&apos;&#x0D;&#x0A;- Original project: &apos;java8&apos;&#x0D;&#x0A;- Original element: &apos;java8/src/predifedFunctionalIntefrace&apos;&#x0D;&#x0A;- Renamed element: &apos;java8/src/predefinedFunctionalIntefrace&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;predifedFunctionalIntefrace&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;predifedFunctionalIntefrace" name="predefinedFunctionalIntefrace" qualified="false" references="true" stamp="1696239364280" textual="false" version="1.0"/>
+</session>

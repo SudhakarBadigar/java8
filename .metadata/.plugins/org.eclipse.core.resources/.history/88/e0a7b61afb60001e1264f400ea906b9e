@@ -1,0 +1,27 @@
+package defaultAndStaticMethods;
+interface I{
+	public static void add(int a, int b) {
+		System.out.println("addition" + (a+b));
+	}
+	public static void sub(int a, int b) {
+		System.out.println("subtraction" + (a-b));
+	}
+	public static void product(int a, int b) {
+		System.out.println("product" + (a*b));
+	}
+	public static void division(int a, int b) {
+		System.out.println("Division" + (a/b));
+	}
+	public static void Module(int a, int b) {
+		System.out.println("Module" + (a%b));
+	}
+}
+public class Utility implements I {
+	public static void main(String[] args) {
+			I.add(5,3);
+			I.sub(10, 5);
+			I.product(5, 5);
+			I.division(50,25);
+			I.Module(100,21);
+	}
+}
