@@ -1,0 +1,13 @@
+package defaultAndStaticMethods;
+
+interface stock{
+	public static  void m1() {
+		System.out.println("static m1 method");
+	}
+}
+public class Test3 {
+
+	public static void main(String[] args) {
+		stock.m1();
+	}
+}
