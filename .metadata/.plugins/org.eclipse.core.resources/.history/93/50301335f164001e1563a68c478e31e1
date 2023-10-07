@@ -1,0 +1,14 @@
+package predefinedFunctionalIntefrace;
+
+import java.util.function.Predicate;
+
+public class PedicateLengthOfString {
+	public static void main(String[] args) {
+		String s1 = {"Rama","shiva","Hanumantha","subramanya","ganesha"};
+		Predicate<String> p = s->s.length()>5;
+		for(String m: s1) {
+			if(p.test(s1))
+		}
+	}
+
+}
