@@ -1,0 +1,20 @@
+package predefinedFunctionalIntefrace;
+
+import java.util.function.Function;
+
+class Test{
+	String name;
+	int marks;
+	public Test(String name, int marks) {
+		super();
+		this.name = name;
+		this.marks = marks;
+	}
+	
+}
+public class StudentGrade {
+ public static void main(String[] args) {
+	Function<T, R>
+}
+	
+}
