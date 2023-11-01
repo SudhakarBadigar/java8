@@ -20,8 +20,10 @@
     <fullyQualifiedTypeName name="defaultAndStaticMethods.I"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="predefinedFunctionalIntefrace.PredicateEven"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="predefinedFunctionalIntefrace.Student"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="predefinedFunctionalIntefrace.Test"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,43 @@
+package predefinedFunctionalIntefrace;
+
+import java.util.function.Function;
+
+class Student1{
+	String name;
+	int marks;
+	public Student1(String name, int marks) {
+		super();
+		this.name = name;
+		this.marks = marks;
+	}
+	
+}
+public class StudentGrade {
+ public static void main(String[] args) {
+	Function<Student, String> f = s-> {
+		int marks=s.marks;
+		String grade ="";
+		if(marks>=80) grade="A[Distinction]";
+		else if(marks>=60) grade="B[First class]";
+		else if(marks>=50) grade="C[Second class]";
+		else if(marks>=35) grade="D[Third class]";
+		else grade="E[Fail]";
+		return grade;
+	};
+	
+	Student[] t = { new Student("sachin",98),
+				 new Student("virat",62),
+				 new Student("rohit",55),
+				 new Student("shikar",43),
+				 new Student("kambli",30)
+	};
+	
+	for(Student t1:t) {
+		System.out.println("Student Name: " + t1.name);
+		System.out.println("Student marks: " + t1.marks);
+		System.out.println("Student grade: " + f.apply(t1));
+		System.out.println(" ");
+	}
+}
+	
+}

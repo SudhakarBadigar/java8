@@ -1,0 +1,42 @@
+package predefinedFunctionalIntefrace;
+
+import java.util.ArrayList;
+import java.util.function.Predicate;
+
+class Student{
+	String name;
+	int id;
+
+	public Student(String name, int id) {
+		this.name = name;
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", id=" + id + "]";
+	}
+	
+	
+}
+
+public class PredicateEmpOrStu {
+	public static void main(String[] args) {
+		ArrayList<Student1> l = new ArrayList<Student1>();
+		l.add(new Student1("Rama", 5));
+		l.add(new Student1("Krishna", 6));
+		l.add(new Student1("Hanumantha", 3));
+		l.add(new Student1("shiva", 2));
+		l.add(new Student1("Ganesha", 1));
+		l.add(new Student1("Subramanya", 4));
+		System.out.println(l);
+		Predicate<Student1> p = e->e.id>2;
+		for(Student1 s :l) {
+			if(p.test(s)) {
+				System.out.println(s.name +":" +s.id);
+			}
+		}
+	}
+	
+
+}

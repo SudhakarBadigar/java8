@@ -1,0 +1,5 @@
+package predefinedFunctionalIntefrace;
+
+public class StudentPredicate {
+
+}

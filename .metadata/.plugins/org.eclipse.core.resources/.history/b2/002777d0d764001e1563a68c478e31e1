@@ -1,8 +1,0 @@
-package defaultAndStaticMethods;
-
-interface stock{
-	
-}
-public class Test2 {
-
-}
