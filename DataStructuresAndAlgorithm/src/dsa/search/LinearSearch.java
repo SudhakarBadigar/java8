@@ -35,7 +35,7 @@ public class LinearSearch {
 		public static int binarySearch(int[] num, int target) {
 			int step =0;
 			int left =0;
-			int right = num.length-1;
+			int right = num.length -1;
 			while(left<=right) {
 				step++;
 				int mid = (left+right)/2;
@@ -44,15 +44,15 @@ public class LinearSearch {
 					return mid;
 				}
 				else if(num[mid]<target) {
-					left = mid +1;
+					left = mid + 1;
 					
 				}
-				else right =mid-1;
+				else right =mid - 1;
 				
 			
 			}
 			System.out.println("steps taken by binary search" +step);
-			return -1;
+			return - 1;
 		}
 
 }
