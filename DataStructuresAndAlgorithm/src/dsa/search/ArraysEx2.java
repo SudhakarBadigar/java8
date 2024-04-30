@@ -6,7 +6,7 @@ import java.util.Collections;
 public class ArraysEx2 {
 	
 	public static void f1(){
-		int[] num = {3,4,6,7,1,0};
+		int[] num = {3,4,6,7,1,14,15,16};
 		for(int n:num) {
 			System.out.print(n);
 		}
